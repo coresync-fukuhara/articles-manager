@@ -11,7 +11,7 @@ private: true
 最近、在宅ワークが増えてほぼ家にいる生活を送っており、時間感覚が曖昧になってきてまして…
 1時間ごとにお知らせしてくれる何かがあればいいのでは！と思い至ったので、どんなことをしたのかを記事にしていこうと思います！
 
-今回の作成物は[GitHub](https://github.com/coresync-fukuhara/time-announcement-backend) においていますので、ご興味がある方は覗いてみてください :eyes:
+今回の作成物は[GitHub](https://github.com/coresync-fukuhara/time-announcement-backend/tree/v0.1.0) に置いていますので、ご興味がある方は覗いてみてください :eyes:
 
 # 機能要件
 
