@@ -1,1 +1,1 @@
-# time-announcement-qiita
+# articles-qiita
