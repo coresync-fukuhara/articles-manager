@@ -65,7 +65,3 @@ qiita_sync sync . -e '**/README.md' '.*/**/*.md' '**/_template.md'
 ```
 
 `-e` は qiita-sync のデフォルト除外を上書きするため、既定の `**/README.md`・`.*/**/*.md` も併記したうえで、雛形 `**/_template.md` を加えています。**これを省くとテンプレートが新規記事として Qiita に投稿されてしまう**ため、必ずこのオプション付きで実行してください。
-
-### GitHub Actions で自動同期する
-
-`main` に push すると [Qiita Sync ワークフロー](./.github/workflows/qiita_sync.yml)が走り、自動で同期します。リポジトリの Secrets に `QIITA_ACCESS_TOKEN` を設定しておく必要があります。
