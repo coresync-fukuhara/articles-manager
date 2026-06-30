@@ -1,7 +1,9 @@
 {
   "name": "time-announcement-qiita",
   "image": "mcr.microsoft.com/devcontainers/python:3.12",
-  "features": {},
+  "features": {
+    "ghcr.io/anthropics/devcontainer-features/claude-code:1.0": {}
+  },
   "settings": {
     "terminal.integrated.defaultProfile.linux": "zsh"
   },
